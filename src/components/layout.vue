@@ -9,7 +9,12 @@
           />
         </button>
       </div>
-      <div>MedQueryHub</div>
+      <div>
+      <router-link to="/" >
+        <div>MedQueryHub</div>
+        </router-link>
+      </div>
+      
       <!-- List of Tabs -->
       <Transition name="menu-slide">
         <div
@@ -65,13 +70,13 @@
       <div class="md:w-[20%] h-full justify-end gap-1 md:gap-4 flex">
         <router-link to="/login">
           <ButtonComponent
-            btnStyle=" text-[14px] px-2 py-1 text-white md:py-2 md:px-4 bg-green-500 hover:bg-green-700"
+            btnStyle=" text-[14px] w-full px-2 py-1 text-white md:py-2 md:px-4 bg-green-500 hover:bg-green-700"
             >Log In
           </ButtonComponent>
         </router-link>
         <router-link to="/signup" >
           <ButtonComponent
-            btnStyle="text-[14px] text-white px-2 py-1 md:py-2 md:px-4 bg-blue-500 hover:bg-blue-700"
+            btnStyle="text-[14px] w-full text-white px-2 py-1 md:py-2 md:px-4 bg-blue-500 hover:bg-blue-700"
           >Sign Up
           </ButtonComponent>
         </router-link>

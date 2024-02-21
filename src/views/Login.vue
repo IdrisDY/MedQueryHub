@@ -1,5 +1,5 @@
 <template>
-   <div class="md:w-[65%]  mt-[20%] w-[90%] m-auto bg-white rounded-md shadow-xl px-4 pb-8 pt-2 md:px-[24px] mr-auto" >
+   <div class="md:w-[30%]  mt-[20%] w-[90%] m-auto bg-white rounded-md shadow-xl px-4 pb-8 pt-2 md:px-[24px] mr-auto" >
         <form class="md:ml-0 mt-5">
           <div class="flex flex-col gap-1">
             <label class="font-[600] text-[#444444]" for="email">Email</label>
